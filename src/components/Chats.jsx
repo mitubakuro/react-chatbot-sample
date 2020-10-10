@@ -18,7 +18,7 @@ const Chats = (props)=>{
   return(
     <List className={classes.root}>
       {props.chats.map((chat, index)=>{
-        <Chat text={chat.text} type={chat.type} key={index.toString()} />
+        return <Chat text={chat.text} type={chat.type} key={index.toString()} />
       })}
     </List>
   )
