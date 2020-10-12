@@ -10,7 +10,6 @@ const useStyles = makeStyles(() => (
       height: 400,
       padding: "0",
       overflow: "auto",
-      
     }
   })
   
